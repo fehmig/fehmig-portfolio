@@ -5,7 +5,16 @@
     "home": "Ana Sayfa",
     "skills":"Yetenekler",
     "portfolio":"Portföy",
-    "services":"Hizmetler"
+    "services":"Hizmetler",
+    "home-description":"Ankara'da yaşayan bilgisayar mühendisiyim. Yazılım geliştiriyorum ve bilgisayar bilimleriyle ilgileniyorum. İşimi seviyorum ve tutkuluyum.",
+    "home-subtitle": "Bilgisayar Mühendisi",
+    "say-hello":"Bana Ulaş",
+    "scroll-name":"Aşağı in",
+    "about-me":"Hakkımda",
+    "about-description":"React ile frontend geliştiriyorum. MERN Stack kullanabilirim. Ayrıca backend geliştirmeyi de öğreniyorum. React Native ile mobil uygulama geliştirebilirim. Çeşitli programlama dillerine hakimim. Herhangi bir programlama dilini hızlı bir şekilde öğrenebilecek temel altyapıya sahibim. Yapay Zeka ve Bulut Bilişim de ilgimi çekiyor.",
+    "my-intro":"Bilgilerim",
+    "cv":"CV İndir",
+    "özlü-söz":"Öğrenmenin sonsuzluğu, insana ne kadar az bildiğini gösterir."
     
     
   }
