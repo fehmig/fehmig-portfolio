@@ -5,8 +5,8 @@
     "home": "Ana Sayfa",
     "skills":"Yetenekler",
     "portfolio":"Portföy",
-    "services":"Hizmetler",
-    "home-description":"Ankara'da yaşayan bilgisayar mühendisiyim. Yazılım geliştiriyorum ve bilgisayar bilimleriyle ilgileniyorum. İşimi seviyorum ve tutkuluyum.",
+    "services":"Deneyim",
+    "home-description":"Ankara'da yaşayan 2000 yılı doğumlu bir bilgisayar mühendisiyim. Yazılım geliştiriyorum ve bilgisayar bilimleriyle ilgileniyorum. İşimi seviyorum ve tutkuluyum.",
     "home-subtitle": "Bilgisayar Mühendisi",
     "say-hello":"Bana Ulaş",
     "scroll-name":"Aşağı in",
@@ -14,7 +14,24 @@
     "about-description":"React ile frontend geliştiriyorum. MERN Stack kullanabilirim. Ayrıca backend geliştirmeyi de öğreniyorum. React Native ile mobil uygulama geliştirebilirim. Çeşitli programlama dillerine hakimim. Herhangi bir programlama dilini hızlı bir şekilde öğrenebilecek temel altyapıya sahibim. Yapay Zeka ve Bulut Bilişim de ilgimi çekiyor.",
     "my-intro":"Bilgilerim",
     "cv":"CV İndir",
-    "özlü-söz":"Öğrenmenin sonsuzluğu, insana ne kadar az bildiğini gösterir."
+    "özlü-söz":"Öğrenmenin sonsuzluğu, insana ne kadar az bildiğini gösterir.",
+    "my-tech-level":"Teknik Bilgilerim",
+    "left-tech-title":"Frameworkler, Veritabanları ve Teknolojiler",
+    "right-tech-title":"Programlama Dilleri",
+    "intermediate":"Orta Seviye",
+    "basic":"Temel Seviye",
+    "education":"Eğitim",
+    "experience":"Deneyim",
+    "my-personal-journey":"Yolculuğum",
+    "university":"Karabük Üniversitesi",
+    "department":"Bilgisayar Mühendisliği, Lisans",
+    "ydyo":"Yabancı Diller Yüksekokulu, İngilizce",
+    "lise":"Ortaöğretim",
+    "exp1":"Aartı Yazılım & Danışmanlık",
+    "exp2":"ExportBox Bilişim ve Dış Ticaret A.Ş",
+    "exp3":"Siren Bilişim & Yazılım",
+    "software-dev":"Yazılım Geliştiricisi",
+    "intern":"Stajyer"
     
     
   }

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import AboutImg from "../../assets/about.jpg"
-import CV from "../../assets/John-Cv.pdf"
+import CV from "../../assets/FehmiGünayCVGüncel.pdf"
 import Info from "./Info"
 import { useTranslation } from '../translate/TranslateContext'
 
@@ -12,7 +12,7 @@ const About = () => {
 
 
   return (
-        <section className="about section">
+        <section className="about section" id='about'>
             <h2 className="section__title">{translate('about-me')}</h2>
                 <span className="section__subtitle">{translate('my-intro')}</span>
 

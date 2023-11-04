@@ -18,8 +18,8 @@ const Social = () => {
                 <i className='uil uil-instagram'></i>
             </a>
 
-                <a href="https://twitter.com/durbakimaynen" className="home__social-icon" target="_blank" rel="noreferrer">
-            <i className='uil uil-twitter-alt'></i>
+                <a href="https://open.spotify.com/user/21ryjbxvr24nrnrjj3cgu6dba?si=6ffbace643584b04" className="home__social-icon" target="_blank" rel="noreferrer">
+            <i className='bx bxl-spotify'></i>
                 </a>
 
         </div>

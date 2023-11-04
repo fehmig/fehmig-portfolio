@@ -1,17 +1,22 @@
 import React from 'react'
 import "./skills.css"
-import Frontend from './Frontend'
-import Backend from './Backend'
+import LeftSkills from './LeftSkills'
+import RightSkills from './RightSkills'
+import { useTranslation } from '../translate/TranslateContext'
+
 
 const Skills = () => {
+
+    const {translate} = useTranslation()
+
   return (
     <section className="skills section" id='skills'>
-    <h2 className="section__title" >Skills</h2>
-    <span className="section__subtitle">My technical level</span>
+    <h2 className="section__title" >{translate('skills')}</h2>
+    <span className="section__subtitle">{translate('my-tech-level')}</span>
 
     <div className="skills__container container grid">
-                <Frontend />
-                <Backend />
+                <LeftSkills />
+                <RightSkills />
         </div>
     </section>
 )

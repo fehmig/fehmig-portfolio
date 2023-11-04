@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./header.css"
 import { AiOutlineGlobal } from 'react-icons/ai';
-import { CgMenuGridO } from 'react-icons/cg';
 import { useTranslation } from '../translate/TranslateContext';
 
 const Header = () => {

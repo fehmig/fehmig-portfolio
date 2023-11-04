@@ -1,10 +1,14 @@
 import React from 'react'
+import { useTranslation } from '../translate/TranslateContext'
 
 
-const Frontend = () => {
+const LeftSkills = () => {
+
+    const {translate} = useTranslation()
+
   return (
      <div className="skills__content">
-        <h3 className="skills__title">Frameworks, Databases and Technologies</h3>
+        <h3 className="skills__title">{translate('left-tech-title')}</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -13,20 +17,15 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">React, React Native</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
-
-               
-
-              
-
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
 
                     <div>
                         <h3 className="skills__name">ExpressJS</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
 
@@ -35,7 +34,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">NodeJS</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
 
@@ -44,7 +43,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Angular</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">{translate('basic')}</span>
                     </div>
                 </div>
                 <div className="skills__data">
@@ -52,7 +51,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">ASP.NET</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">{translate('basic')}</span>
                     </div>
                 </div>
 
@@ -71,7 +70,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">MSSQL, MySQL</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
 
@@ -80,7 +79,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Firebase</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
                 <div className="skills__data">
@@ -88,7 +87,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">MongoDB</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
                 <div className="skills__data">
@@ -96,7 +95,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">GIT</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
 
@@ -105,7 +104,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Machine Learning</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
 
@@ -118,4 +117,4 @@ const Frontend = () => {
   )
 }
 
-export default Frontend
+export default LeftSkills
