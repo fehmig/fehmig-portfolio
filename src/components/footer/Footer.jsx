@@ -12,7 +12,7 @@ function Footer() {
                             <a href="#about" className="footer__link">About</a>
                         </li>
                         <li>
-                            <a href="#services" className="footer__link">Services</a>
+                            <a href="#services" className="footer__link">Qualification</a>
                         </li>
                         <li>
                             <a href="#skills" className="footer__link">Skills</a>

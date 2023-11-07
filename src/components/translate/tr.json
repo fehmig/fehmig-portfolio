@@ -6,6 +6,7 @@
     "skills":"Yetenekler",
     "portfolio":"Portföy",
     "services":"Deneyim",
+    "qualification":"Deneyim",
     "home-description":"Ankara'da yaşayan 2000 yılı doğumlu bir bilgisayar mühendisiyim. Yazılım geliştiriyorum ve bilgisayar bilimleriyle ilgileniyorum. İşimi seviyorum ve tutkuluyum.",
     "home-subtitle": "Bilgisayar Mühendisi",
     "say-hello":"Bana Ulaş",
@@ -21,7 +22,7 @@
     "intermediate":"Orta Seviye",
     "basic":"Temel Seviye",
     "education":"Eğitim",
-    "experience":"Deneyim",
+    "experience":"Tecrübe",
     "my-personal-journey":"Yolculuğum",
     "university":"Karabük Üniversitesi",
     "department":"Bilgisayar Mühendisliği, Lisans",
@@ -31,7 +32,18 @@
     "exp2":"ExportBox Bilişim ve Dış Ticaret A.Ş",
     "exp3":"Siren Bilişim & Yazılım",
     "software-dev":"Yazılım Geliştiricisi",
-    "intern":"Stajyer"
+    "intern":"Stajyer",
+    "get-in-touch":"Bana ulaş",
+    "contact-me":"İletişim",
+    "talk-to-me":"Benimle iletişime geçebilirsin",
+    "write-me":"Bana ulaş",
+    "write-me-tho":"Benimle düşüncelerini paylaş",
+    "name":"İsim",
+    "message":"Mesaj",
+    "send-message":"Mesaj Gönder",
+    "insert-name":"Adını gir",
+    "insert-email":"Mail gir",
+    "write-your-message":"Mesajını yaz"
     
     
   }

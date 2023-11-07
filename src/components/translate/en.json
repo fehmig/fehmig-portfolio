@@ -5,6 +5,7 @@
     "skills":"Skills",
     "portfolio":"Portfolio",
     "services":"Services",
+    "qualification":"Qualification",
     "home-description":"I'm computer engineer based in Ankara, Türkiye. I was born in 2000. I'm developing software and interested computer science. I'm very passionate and dedicated to my work.",
     "home-subtitle": "Computer Engineer",
     "say-hello":"Say Hello",
@@ -30,7 +31,19 @@
     "exp2":"ExportBox IT & Foreign Trade",
     "exp3":"Siren IT & Software",
     "software-dev":"Software Developer",
-    "intern":"Intern"
+    "intern":"Intern",
+    "get-in-touch":"Get in touch",
+    "contact-me":"Contact Me",
+    "talk-to-me":"Talk to me",
+    "write-me":"Write Me",
+    "write-me-tho":"Write me thoughts",
+    "name":"Name",
+    "message":"Message",
+    "send-message":"Send Message",
+    "insert-name":"Insert your name",
+    "insert-email":"Insert your mail",
+    "write-your-message":"Write your message"
+    
 
 
   }

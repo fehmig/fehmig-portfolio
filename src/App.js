@@ -7,6 +7,8 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Qualification from './components/qualification/Qualification';
 import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
+import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
   return (
@@ -18,8 +20,10 @@ const App = () => {
         <About />
         <Skills />
         <Qualification />
-        <Footer />
+        <Contact />
         </main>
+        <Footer />
+        <ScrollUp />
       </TranslationProvider>
     </>
   );

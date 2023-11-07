@@ -14,8 +14,8 @@ const Qualification = () => {
 
 
   return (
-        <section className="qualification section"  id='services'>
-            <h2 className="section__title">{translate('services')}</h2>
+        <section className="qualification section"  id='qualification'>
+            <h2 className="section__title">{translate('qualification')}</h2>
             <span className="section__subtitle">{translate('my-personal-journey')}</span>
 
 
