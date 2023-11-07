@@ -42,8 +42,11 @@
     "send-message":"Send Message",
     "insert-name":"Insert your name",
     "insert-email":"Insert your mail",
-    "write-your-message":"Write your message"
-    
+    "write-your-message":"Write your message",
+    "copyright":"All rights reserved",
+    "footer-desc":"Developed with ReactJS",
+    "success-mail":"Message sent! Don't forget to check your email for the reply...",
+    "unsuccess-mail":"Error, please try again."
 
 
   }

@@ -2,21 +2,28 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
 import { useTranslation } from '../translate/TranslateContext';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
     const form = useRef();
-
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_f4eszwd', 'template_a1t0c2g', form.current, 'sJwEOtPwjsAt5E_GP')
-      e.target.reset()
-    };
-
-
     const {translate} = useTranslation()
 
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_f4eszwd', 'template_a1t0c2g', form.current, 'sJwEOtPwjsAt5E_GP')
+          .then(() => {
+            e.target.reset();
+            toast.success(`${translate('success-mail')}`);
+          })
+          .catch((error) => {
+            toast.error(`${translate('unsuccess-mail')}`);
+          });
+      };
+
+   
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">{translate('get-in-touch')}</h2>
@@ -102,6 +109,8 @@ const Contact = () => {
                                 ></path>
                             </svg>
                         </button>
+                        <ToastContainer />
+                       
                     </form>
                 </div>
 

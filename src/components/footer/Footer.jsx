@@ -1,7 +1,14 @@
 import React from 'react'
 import "./footer.css"
+import { useTranslation } from '../translate/TranslateContext';
 
-function Footer() {
+
+const Footer = () => {
+
+
+    const {translate} = useTranslation()
+
+
   return (
         <footer className="footer">
             <div className="footer__container container">
@@ -9,13 +16,13 @@ function Footer() {
 
                 <ul className="footer__list">
                         <li>
-                            <a href="#about" className="footer__link">About</a>
+                            <a href="#about" className="footer__link">{translate('about')}</a>
                         </li>
                         <li>
-                            <a href="#services" className="footer__link">Qualification</a>
+                            <a href="#qualification" className="footer__link">{translate('qualification')}</a>
                         </li>
                         <li>
-                            <a href="#skills" className="footer__link">Skills</a>
+                            <a href="#skills" className="footer__link">{translate('skills')}</a>
                         </li>
                 </ul>
 
@@ -37,7 +44,8 @@ function Footer() {
                             </a>
                 </div>
 
-                <span className='footer__copy'>fehmig ©  All rights reserved</span>
+                <span className='footer__copy'>fehmig © {translate('copyright')}</span>
+                <span className='footer__copy'>{translate('footer-desc')}</span>
             </div>
         </footer>
   )

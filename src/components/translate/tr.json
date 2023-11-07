@@ -43,7 +43,12 @@
     "send-message":"Mesaj Gönder",
     "insert-name":"Adını gir",
     "insert-email":"Mail gir",
-    "write-your-message":"Mesajını yaz"
+    "write-your-message":"Mesajını yaz",
+    "copyright":"Tüm hakları saklıdır",
+    "footer-desc":"ReactJS ile geliştirilmiştir",
+    "success-mail":"Mesaj gönderildi! Cevap için mailini kontrol etmeyi unutma...",
+    "unsuccess-mail":"Bir hata ile karşılaşıldı, daha sonra tekrar dene."
+
     
     
   }

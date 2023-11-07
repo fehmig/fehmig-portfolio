@@ -24,12 +24,12 @@ const Qualification = () => {
                     <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
                         onClick={() => toggleTab(1)}
                     >
-                        <i className="uil uil-graduation-cap qualification__icon"></i>{translate('education')}
+                        <i className="uil uil-graduation-cap qualification__icon"></i><div style={{ color: toggleState===1 ? 'black' : 'gray'}}>{translate('education')}</div>
                     </div>
 
                     <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
                      onClick={() => toggleTab(2)}>
-                        <i className="uil uil-briefcase-alt qualification__icon"></i>{translate('experience')}
+                        <i className="uil uil-briefcase-alt qualification__icon"></i><div style={{ color: toggleState===2 ? 'black' : 'gray'}}>{translate('experience')}</div>
                     </div>
 
 

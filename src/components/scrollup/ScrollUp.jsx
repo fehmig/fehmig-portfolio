@@ -10,6 +10,7 @@ function ScrollUp() {
     })
 
   return (
+   // eslint-disable-next-line 
    <a href="#" className="scrollup">
     <i className="uil uil-arrow-up scrollup__icon"></i>
    </a>
