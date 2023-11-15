@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
 
                 <span className='footer__copy'>fehmig © {translate('copyright')}</span>
-                <span className='footer__copy'>{translate('footer-desc')}</span>
+                {/* <span className='footer__copy'>{translate('footer-desc')}</span> */}
             </div>
         </footer>
   )

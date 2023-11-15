@@ -50,7 +50,7 @@ const LeftSkills = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">ASP.NET</h3>
+                        <h3 className="skills__name">NextJS</h3>
                         <span className="skills__level">{translate('basic')}</span>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const LeftSkills = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">Firebase</h3>
+                        <h3 className="skills__name">MongoDB, Firebase</h3>
                         <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const LeftSkills = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">MongoDB</h3>
+                        <h3 className="skills__name">ASP.NET</h3>
                         <span className="skills__level">{translate('intermediate')}</span>
                     </div>
                 </div>
