@@ -17,7 +17,7 @@ const About = () => {
                 <span className="section__subtitle">{translate('my-intro')}</span>
 
                 <div className="about__container container grid">
-                        <img src={AboutImg} alt="" className='about__img'></img>
+                        <img src={AboutImg} alt="Fehmi Günay" className='about__img'></img>
 
                         <div className="about__data">
                             <Info />

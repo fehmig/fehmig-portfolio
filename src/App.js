@@ -9,18 +9,28 @@ import Qualification from './components/qualification/Qualification';
 import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
 import ScrollUp from './components/scrollup/ScrollUp';
+import { Helmet } from 'react-helmet';
 
 const App = () => {
   return (
     <>
-    <TranslationProvider>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Fehmi Günay</title>
+        <meta name="description" content="Bilgisayar Mühendisi Fehmi Günay'ın kişisel websitesi." />
+        <meta name="keywords" content="web geliştirici, react, portfolio, Fehmi Günay" />
+        <meta name="author" content="Fehmi Günay" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      </Helmet>
+      <TranslationProvider>
         <Header />
         <main className='main'>
-        <Home />
-        <About />
-        <Skills />
-        <Qualification />
-        <Contact />
+          <Home />
+          <About />
+          <Skills />
+          <Qualification />
+          <Contact />
         </main>
         <Footer />
         <ScrollUp />
