@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, createContext, useContext }from 'react';
 import en from './en.json';
 import tr from './tr.json';
 
@@ -7,10 +7,10 @@ const translations = {
   tr
 };
 
-const TranslationContext = React.createContext();
+const TranslationContext = createContext();
 
 export const TranslationProvider = ({ children }) => {
-  const [lang, setLang] = React.useState('en');
+  const [lang, setLang] = useState('en');
 
   const setLanguage = (language) => {
     setLang(language);
@@ -34,5 +34,5 @@ export const TranslationProvider = ({ children }) => {
 };
 
 export const useTranslation = () => {
-  return React.useContext(TranslationContext);
+  return useContext(TranslationContext);
 };
