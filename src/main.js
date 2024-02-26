@@ -18,7 +18,7 @@ const Main = () => {
         <meta charSet="utf-8" />
         <title>Fehmi Günay</title>
         <meta name="description" content="Bilgisayar Mühendisi Fehmi Günay'ın kişisel websitesi." />
-        <meta name="keywords" content="web geliştirici, react, portfolio, Fehmi Günay" />
+        <meta name="keywords" content="web geliştirici, react, portfolio, Fehmi Günay, fehmi günay, fehmi, günay, bilgisayar mühendisi" />
         <meta name="author" content="Fehmi Günay" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link  rel='canonical' href='/'/>
